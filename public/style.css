@@ -1,0 +1,121 @@
+/* COLORI e FONT */
+:root{
+    --dw: rgb(230, 245, 252);
+    --lbl: rgb(92, 149, 219);
+    --lp: rgb(211, 175, 227)
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    color: var(--dw);
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4{
+    font-family: "Chelsea Market", system-ui;
+}
+
+
+.bg-dw{
+    background-color: var(--dw);
+}
+
+.text-dw{
+    color: var(--dw);
+}
+
+.bg-lbl{
+    background-color: var(--lbl);
+}
+
+.text-lbl{
+    color: var(--lbl);
+}
+
+.bg-lp{
+    background-color: var(--lp);
+}
+
+.text-lp{
+    color: var(--lp);
+}
+
+/* UTILITY */
+.vh-75{
+    height: 75vh;
+}
+
+.vh-custom{
+    height: 95vh;
+}
+
+/* NAVBAR */
+.logo{
+    width: 40px;
+}
+
+.nav-link{
+    font-weight: 700;
+    color: var(--dw);
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    color: var(--lbl);
+}
+
+/* WRAPPER */
+.wrapper-custom{
+    /* background-image: url('/media/background.jpg'); */
+    background: linear-gradient(180deg, rgba(92, 149, 219, 0.7), rgba(255,255,255,0.9)), url('/media/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+}
+
+/* CARDS */
+.card{
+    background-color: rgba(92, 149, 219, 0.7);
+    border: 4px solid var(--lp);
+    color: var(--dw);
+}
+
+.btn-custom{
+    margin-left: 65px;
+    background-color: var(--lp);
+    color: var(--dw);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-custom:hover{
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.7);
+    color: var(--lp); 
+    outline: 3px solid var(--lp);
+}
+
+/* DETAILS */
+.row-custom{
+    background-color: rgba(92, 149, 219, 0.7);
+    border: 4px solid var(--lp);
+    padding: 50px 0px;
+    width: 80%;
+}
+
+.propic{
+    width: 350px;
+    border: 5px solid var(--lp);
+    border-radius: 50%;
+}
+
+.p-custom{
+    font-size: 24px;
+}
+
+.p-description{
+    font-size: 18px;
+    text-align: justify;
+}
